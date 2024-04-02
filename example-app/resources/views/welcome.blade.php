@@ -9,6 +9,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/manageRoom.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
@@ -61,18 +62,9 @@
                 <p>สถานะ : </p>
                 <p>ประเภทของห้อง : </p>
             </div>
-        </div>
-        <div class="rooms">
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <p>ชื่อห้อง : </p>
-                <p>ขนาด : </p>
-                <p>แบ่งครึ่งห้อง : </p>
-                <p>ราคา : </p>
-                <p>สถานะ : </p>
-                <p>ประเภทของห้อง : </p>
+            <div class="icon-manage">
+                <a class="delete-icon"  title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a class="edit-icon" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
             </div>
         </div>
         <div class="rooms">
@@ -87,8 +79,11 @@
                 <p>สถานะ : </p>
                 <p>ประเภทของห้อง : </p>
             </div>
-        </div>
-        <div class="rooms">
+            <div class="icon-manage">
+                <a class="delete-icon"  title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a class="edit-icon" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+            </div>
+        </div><div class="rooms">
             <div>
                 <img src="" alt="">
             </div>
@@ -99,6 +94,42 @@
                 <p>ราคา : </p>
                 <p>สถานะ : </p>
                 <p>ประเภทของห้อง : </p>
+            </div>
+            <div class="icon-manage">
+                <a class="delete-icon"  title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a class="edit-icon" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+            </div>
+        </div><div class="rooms">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <p>ชื่อห้อง : </p>
+                <p>ขนาด : </p>
+                <p>แบ่งครึ่งห้อง : </p>
+                <p>ราคา : </p>
+                <p>สถานะ : </p>
+                <p>ประเภทของห้อง : </p>
+            </div>
+            <div class="icon-manage">
+                <a class="delete-icon"  title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a class="edit-icon" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+            </div>
+        </div><div class="rooms">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <p>ชื่อห้อง : </p>
+                <p>ขนาด : </p>
+                <p>แบ่งครึ่งห้อง : </p>
+                <p>ราคา : </p>
+                <p>สถานะ : </p>
+                <p>ประเภทของห้อง : </p>
+            </div>
+            <div class="icon-manage">
+                <a class="delete-icon"  title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a class="edit-icon" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
             </div>
         </div>
 
