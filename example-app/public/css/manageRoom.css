@@ -1,0 +1,81 @@
+.gen_rooms
+{
+    display: flex;
+    justify-content: flex-start;/*้ดม*/
+    flex-wrap: wrap; /*ขึ้นบนนทัดใหม่เมื่อข้อมูลเกินบรรทัด*/
+
+}
+
+.rooms{
+    width: 30%; /* กว้างของกรอบ */
+
+    margin: 25px; /* จัดกลาง */
+    border: 1px solid #000; /* เส้นขอบ */
+    padding: 20px; /* ขอบ */
+    box-sizing: border-box; /* คำนวณขนาดแบบเชิงกล่อง */
+    border-radius: 20px;
+}
+.search_room{
+    padding: 15px; /* ขอบ */
+    padding-right: 50px; /* ขอบ */
+
+    border: 1px solid #000; /* เส้นขอบ */
+    border-radius: 10px;
+
+}
+.searchroom-btn{
+    background-color: blue;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 0px solid #000; /* เส้นขอบ */
+    color: white;
+    border-radius: 5px;
+}
+.addroom-btn{
+    background-color: rgb(63, 249, 54);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border: 0px solid #000; /* เส้นขอบ */
+    color: white;
+    border-radius: 5px;
+}
+.optionroom-btn{
+    background-color: rgb(114, 114, 114);
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0px solid #000; /* เส้นขอบ */
+    color: white;
+    border-radius: 5px;
+}
+.typeroom{
+    border-radius: 10px; /*ความมดของเหลี่ยกรอบ*/
+    padding: 13px; /*ช่องว่างระหว่างtext กับ กรอบ*/
+
+}
+.row-manageroom
+{
+    display: flex;
+    align-items: center;
+
+
+}
+.row-manageroom > * {
+    margin-right: 10px; /* ระยะห่างระหว่างกล่องทางขวา */
+  }
+.box02{
+    margin-left: 53%; /*เพิ่มช่องว่างนอกกรอบ*/
+}
+.box02:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.box03:hover{
+    box-shadow: 5px 5px 5px black;
+}.box04:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+
